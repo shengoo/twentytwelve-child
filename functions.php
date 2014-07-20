@@ -79,7 +79,7 @@ function twentytwelve_content_nav( $html_id ) {
 			<!--<div class="nav-previous"><?php next_posts_link( __( '<span class="meta-nav">&larr;</span> Older posts', 'twentytwelve' ) ); ?></div>
 
 			<div class="nav-next"><?php previous_posts_link( __( 'Newer posts <span class="meta-nav">&rarr;</span>', 'twentytwelve' ) ); ?></div>-->
-
+			//use WP-PageNavi
 			<?php wp_pagenavi(); ?>
 
 		</nav><!-- #<?php echo $html_id; ?> .navigation -->
