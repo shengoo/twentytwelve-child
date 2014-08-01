@@ -40,7 +40,7 @@ For older themes, and themes that do not use wp_enqueue_style() to enqueue their
 
 @import url("../twentytwelve/style.css");
 
-code,pre {
+/*code,pre {
 	color: #c7254e;
 	page-break-inside: avoid;
 	display: block;
@@ -53,4 +53,4 @@ code,pre {
 	background-color: #f5f5f5;
 	border: 1px solid #ccc;
 	border-radius: 4px;
-}
+}*/
