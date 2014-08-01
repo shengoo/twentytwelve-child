@@ -116,6 +116,15 @@ QTags.addButton( 'eg_pre', 'pre','<pre>', '</pre>', 'q' );
 }
 
 
+//add highlightjs
+function add_highlightjs(){
+    echo '<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/styles/default.min.css">' . "\n";
+    echo '<script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/highlight.min.js"></script>' . "\n";
+    echo '<script>hljs.initHighlightingOnLoad();</script>' . "\n";
+}
+add_action("wp_footer","add_highlightjs");
+
+
 function cfxy_widgets_init() {
     if ( !is_blog_installed() )
         return;
