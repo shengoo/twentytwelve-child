@@ -125,6 +125,11 @@ function add_highlightjs(){
 add_action("wp_footer","add_highlightjs");
 
 
+
+
+
+//-- start
+
 function cfxy_widgets_init() {
     if ( !is_blog_installed() )
         return;
@@ -401,3 +406,7 @@ class CFXY_Widget_Blog_Stat extends WP_Widget
         <?php
     }
 }
+
+//-- end
+
+add_filter( 'pre_option_link_manager_enabled', '__return_true' );
