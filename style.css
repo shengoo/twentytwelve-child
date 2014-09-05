@@ -54,3 +54,7 @@ For older themes, and themes that do not use wp_enqueue_style() to enqueue their
 	border: 1px solid #ccc;
 	border-radius: 4px;
 }*/
+
+.adsbygoogle{
+    background: transparent;
+}
